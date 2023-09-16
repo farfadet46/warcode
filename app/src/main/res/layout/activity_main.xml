@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#e6e1c5"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/hero_monaie"
+        android:layout_width="120dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/fond_info_perso"
+        android:gravity="center"
+        android:text="00"
+        android:textColor="#ec5b1b"
+        android:textSize="@dimen/text_size_normal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.625"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/hero_PD"
+        android:layout_width="@dimen/text_info_size"
+        android:layout_height="@dimen/text_info_haut"
+        android:layout_marginTop="236dp"
+        android:background="@drawable/fond_info_perso"
+        android:gravity="center"
+        android:text="000"
+        android:textColor="#ec5b1b"
+        android:textSize="@dimen/text_size_normal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.862"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/hero_PF"
+        android:layout_width="@dimen/text_info_size"
+        android:layout_height="@dimen/text_info_haut"
+        android:layout_marginTop="168dp"
+        android:background="@drawable/fond_info_perso"
+        android:gravity="center"
+        android:text="000"
+        android:textColor="#ec5b1b"
+        android:textSize="@dimen/text_size_normal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.862"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/hero_PV"
+        android:layout_width="@dimen/text_info_size"
+        android:layout_height="@dimen/text_info_haut"
+        android:layout_marginTop="100dp"
+        android:background="@drawable/fond_info_perso"
+        android:gravity="center"
+        android:text="000"
+        android:textColor="@color/texte_player_info"
+        android:textSize="@dimen/text_size_normal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.862"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/hero_text_monnaie"
+        android:layout_width="145dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="32dp"
+        android:gravity="center_vertical|right"
+        android:text="Monnaie : "
+        android:textSize="@dimen/text_size_normal"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toStartOf="@+id/hero_monaie"
+        app:layout_constraintHorizontal_bias="0.754"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/hero_text_PV"
+        android:layout_width="150dp"
+        android:layout_height="@dimen/text_info_haut"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="16dp"
+        android:gravity="center_vertical|right"
+        android:text="Vie : "
+        android:textSize="@dimen/text_size_normal"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toStartOf="@+id/hero_PV"
+        app:layout_constraintTop_toBottomOf="@+id/hero_text_monnaie" />
+
+    <TextView
+        android:id="@+id/hero_text_PF"
+        android:layout_width="150dp"
+        android:layout_height="@dimen/text_info_haut"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="16dp"
+        android:gravity="center_vertical|right"
+        android:text="Force : "
+        android:textSize="@dimen/text_size_normal"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toStartOf="@+id/hero_PF"
+        app:layout_constraintTop_toBottomOf="@+id/hero_text_PV" />
+
+    <TextView
+        android:id="@+id/hero_text_PF2"
+        android:layout_width="150dp"
+        android:layout_height="@dimen/text_info_haut"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="16dp"
+        android:gravity="center_vertical|right"
+        android:text="Défence : "
+        android:textSize="@dimen/text_size_normal"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toStartOf="@+id/hero_PD"
+        app:layout_constraintTop_toBottomOf="@+id/hero_text_PF" />
+
+    <TextView
+        android:id="@+id/code_value_tv"
+        android:layout_width="316dp"
+        android:layout_height="58dp"
+        android:background="@drawable/liseret_contour"
+        android:gravity="center"
+        android:text="no code"
+        android:textColor="#FFFF"
+        android:textSize="@dimen/text_size_normal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.64" />
+
+    <TextView
+        android:id="@+id/increase_text"
+        android:layout_width="92dp"
+        android:layout_height="39dp"
+        android:layout_marginTop="32dp"
+        android:background="#99000000"
+        android:gravity="center"
+        android:text="+25"
+        android:textColor="#FFFFFF"
+        android:textSize="@dimen/text_size_bonus"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/nbr_scan_restant"
+        android:layout_width="218dp"
+        android:layout_height="38dp"
+        android:gravity="center"
+        android:text="5 scan restant"
+        android:textSize="@dimen/text_size_normal"
+        android:visibility="gone"
+        app:layout_constraintEnd_toStartOf="parent"
+        app:layout_constraintHorizontal_bias="0.5
+"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/start_scan_button"
+        android:layout_width="282dp"
+        android:layout_height="98dp"
+        android:layout_marginTop="36dp"
+        android:background="#fff"
+        android:text="lancer le scan"
+        android:textSize="@dimen/text_size_bonus"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/code_value_tv" />
+
+    <Button
+        android:id="@+id/buy_scan_button"
+        android:layout_width="296dp"
+        android:layout_height="36dp"
+        android:layout_marginStart="6dp"
+        android:background="#fff"
+        android:onClick="onClickHandler"
+        android:text="Acheter un scan"
+        android:textSize="@dimen/text_size_petit"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintVertical_bias="0.95" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <color name="texte_code_liseret">#291fab</color>
+    <color name="texte_code_fond">#1f5bab</color>
+    <color name="texte_playerinfo_liseret">#900C3F</color>
+    <color name="texte_playerinfo_fond">#FFC300</color>
+
+    <color name="texte_player_info">#ec5b1b</color>
+
+</resources>
